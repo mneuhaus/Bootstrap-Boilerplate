@@ -1,0 +1,38 @@
+body {
+	padding-top: 40px;
+	background: @grayLight;
+}
+
+.navbar {
+	position: relative;
+	.brand {
+		position: absolute;
+		right: 20px;
+		top: -20px;
+		font-size: 20px;
+		line-height: 20px;
+		letter-spacing: 3px;
+		background: @white;
+		color: @black;
+		.box-shadow(0 2px 5px @gray);
+		padding: 30px 40px;
+		&:hover {
+			color: @grayDark;
+		}
+	}
+}
+
+.breadcrumb {
+	background: none;
+	border: none;
+	color: @black;
+	
+	a {
+		color: @black;
+	}
+	
+	.divider {
+		padding: 0 2px;
+		color: @black;
+	}
+}
